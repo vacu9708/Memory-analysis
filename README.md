@@ -46,7 +46,7 @@ Run `position_addresses_generator.py` that does the following :
 2. Uses the hypervisor to capture the moments when EPT violations are triggered at the target instruction addresses, and obtains the adresses of position info
 
 ## 4. Track enemy positions by performing "World To Screen" matrix computation
-![image](https://github.com/user-attachments/assets/3baca4d2-27d7-48ea-8165-2b5ff8727bc2)
+![image](https://github.com/user-attachments/assets/9e801bc4-fa55-44f8-9bd6-96fe1bc44155)
 
 Run `aimbot.cpp` that does the following :
 1. Extracts the position info(3D world coordinates of the player and enemies) from the found addresses where the position info is stored.
