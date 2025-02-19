@@ -1,6 +1,6 @@
-![Screenshot_20250217_214151_Gallery](https://github.com/user-attachments/assets/16aa0185-5165-48f7-906e-ffa47b1e4d49)
-
 # Description
+![Screenshot_20250219_160752_Video Player](https://github.com/user-attachments/assets/d4a40ab2-8d29-4d0e-8c65-48245d5bd141)
+
 This project aims to bypass the video game's security mechanisms, track enemy positions, and draw rectangles around them.<br>
 This can be further developed into an aimbot.
 
