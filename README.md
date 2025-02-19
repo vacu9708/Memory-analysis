@@ -29,7 +29,7 @@ The facing direction is likely to be stored in the same struct where the player'
 ## 2. Use the hypervisor to find the instruction addresses executed at the moment the found memory addresses are accessed.
 The memory addreseses found above change after the process restarts because they are **dynamically allocated**.<br>
 Therefore, they cannot consistently be used, which is why this step is necessary.
-![image](https://github.com/user-attachments/assets/09713996-3c08-4167-a362-1db492f4183c)
+![image](https://github.com/user-attachments/assets/4ebe8aa9-3376-48ff-83d7-7874bf1e2ba8)
 
 1. Run the `hypervisor device driver`
 2. Execute `./MyHypervisorApp.exe [process ID] [memory address] 1`, which sets an access violation at the specific memory address
@@ -38,7 +38,7 @@ Therefore, they cannot consistently be used, which is why this step is necessary
 
 ## 3. Use the found instruction addresses to get the addresses where the position info is stored
 This step takes advantage of the fact that the memory addresses where position info is stored can consistently be found using the instructions executed at the moment they are accessed.<br>
-![image](https://github.com/user-attachments/assets/1b04d4d5-f0f7-4c5d-bd9f-9d9ed4644b09)
+![image](https://github.com/user-attachments/assets/0e5d90d5-e685-4b66-8fa7-c2c2e76a7cfa)
 
 Run `position_addresses_generator.py` that does the following :
 1. Adds the target app's base address to the target instrunctions' offset to calculate instruction addresses, and save them to a file.
