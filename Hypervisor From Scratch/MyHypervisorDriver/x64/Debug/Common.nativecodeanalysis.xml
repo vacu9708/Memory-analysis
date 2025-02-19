@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Common.c</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>BroadcastToProcessors</FUNCTION>
+    <DECORATED>BroadcastToProcessors</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Common.c</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'ExAllocatePool2' instead of 'ExAllocatePool'. Reason: ExAllocatePool2 returns zeroized memory.</DESCRIPTION>
+    <FUNCTION>writeToFile</FUNCTION>
+    <DECORATED>writeToFile</DECORATED>
+    <FUNCLINE>169</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Exit.c</FILENAME>
+      <LINE>162</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'InterruptExit'.</DESCRIPTION>
+    <FUNCTION>VmxVmexitHandler</FUNCTION>
+    <DECORATED>VmxVmexitHandler</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'InterruptExit' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'ExitReason' ) resolves to case 0: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>160</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>74</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Exit.c</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'InterruptExit' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

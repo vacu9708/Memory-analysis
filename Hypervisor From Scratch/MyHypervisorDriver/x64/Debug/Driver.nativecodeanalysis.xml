@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'DRIVER_DISPATCH' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; DrvClose' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'DRIVER_DISPATCH' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; DrvCreate' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'DRIVER_DISPATCH' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; DrvRead' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'DRIVER_DISPATCH' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; DrvWrite' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>75</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'DRIVER_DISPATCH' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; DrvDispatchIoControl' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'DRIVER_UNLOAD' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; DrvUnload' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'DRIVER_DISPATCH' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; DrvUnsupported' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>110</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'DeviceObject'. </DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>56</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>56</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>driver.c</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'DeviceObject'. </DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'DeviceObject' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'Ntstatus==(((NTSTATUS)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'DeviceObject' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Driver.c</FILENAME>
+      <LINE>313</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'Status'.</DESCRIPTION>
+    <FUNCTION>DrvDispatchIoControl</FUNCTION>
+    <DECORATED>DrvDispatchIoControl</DECORATED>
+    <FUNCLINE>221</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>313</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'Status' may equal 259 (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Driver.c</FILENAME>
+        <LINE>313</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'Status' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

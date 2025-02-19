@@ -1,0 +1,16 @@
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Ept.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Ept.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Events.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Events.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Exit.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Exit.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\HiddenHooks.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\HiddenHooks.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\HypervisorRoutines.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\HypervisorRoutines.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Invept.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Invept.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Logging.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Logging.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\PoolManager.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\PoolManager.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Spinlock.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Spinlock.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\SyscallHook.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\SyscallHook.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\VmxRegions.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\VmxRegions.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Driver.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Driver.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Common.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Common.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Vmcall.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Vmcall.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Vmx.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Vmx.obj
+D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\Vpid.c;D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\x64\Debug\Vpid.obj

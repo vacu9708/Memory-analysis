@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>PoolManager.c</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'SinglePool'. The current function appears to be an allocator. See the documentation for a special case.</DESCRIPTION>
+    <FUNCTION>PoolManagerAllocateAndAddToPoolTable</FUNCTION>
+    <DECORATED>PoolManagerAllocateAndAddToPoolTable</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>poolmanager.c</FILENAME>
+        <LINE>142</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

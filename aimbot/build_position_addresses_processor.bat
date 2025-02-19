@@ -1,0 +1,2 @@
+g++ position_addresses_processor.cpp -o position_addresses_processor.exe
+position_addresses_processor.exe

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Logging.c</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*MessageBufferInformation.BufferStartAddress'.</DESCRIPTION>
+    <FUNCTION>LogUnInitialize</FUNCTION>
+    <DECORATED>LogUnInitialize</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*MessageBufferInformation.BufferStartAddress' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>47</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*MessageBufferInformation.BufferStartAddress' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Logging.c</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*MessageBufferInformation.BufferForMultipleNonImmediateMessage'.</DESCRIPTION>
+    <FUNCTION>LogUnInitialize</FUNCTION>
+    <DECORATED>LogUnInitialize</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*MessageBufferInformation.BufferForMultipleNonImmediateMessage' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+        <FILENAME>Logging.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>47</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*MessageBufferInformation.BufferForMultipleNonImmediateMessage' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Logging.c</FILENAME>
+      <LINE>292</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '2108' bytes of stack.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>LogSendMessageToQueue</FUNCTION>
+    <DECORATED>LogSendMessageToQueue</DECORATED>
+    <FUNCLINE>292</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Logging.c</FILENAME>
+      <LINE>347</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(5) when some signed type is required in call to 'sprintf_s'.</DESCRIPTION>
+    <FUNCTION>LogSendMessageToQueue</FUNCTION>
+    <DECORATED>LogSendMessageToQueue</DECORATED>
+    <FUNCLINE>292</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Logging.c</FILENAME>
+      <LINE>602</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'KDEFERRED_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; &lt;FunctionName&gt;' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>LogRegisterIrpBasedNotification</FUNCTION>
+    <DECORATED>LogRegisterIrpBasedNotification</DECORATED>
+    <FUNCLINE>576</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>Logging.c</FILENAME>
+      <LINE>662</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'KDEFERRED_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; &lt;FunctionName&gt;' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>LogRegisterEventBasedNotification</FUNCTION>
+    <DECORATED>LogRegisterEventBasedNotification</DECORATED>
+    <FUNCLINE>641</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

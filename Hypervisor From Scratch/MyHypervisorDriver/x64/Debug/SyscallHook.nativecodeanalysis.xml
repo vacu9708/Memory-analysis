@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>SyscallHook.c</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'ExAllocatePool2' instead of 'ExAllocatePool'. Reason: ExAllocatePool2 returns zeroized memory.</DESCRIPTION>
+    <FUNCTION>SyscallHookGetKernelBase</FUNCTION>
+    <DECORATED>SyscallHookGetKernelBase</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>SyscallHook.c</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>28197</DEFECTCODE>
+    <DESCRIPTION>Possibly leaking memory 'pSystemInfoBuffer'. </DESCRIPTION>
+    <FUNCTION>SyscallHookGetKernelBase</FUNCTION>
+    <DECORATED>SyscallHookGetKernelBase</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>SyscallHook.c</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6320</DEFECTCODE>
+    <DESCRIPTION>Exception-filter expression is the constant EXCEPTION_EXECUTE_HANDLER. This might mask exceptions that were not intended to be handled.</DESCRIPTION>
+    <FUNCTION>NtCreateFileHook</FUNCTION>
+    <DECORATED>NtCreateFileHook</DECORATED>
+    <FUNCLINE>167</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>SyscallHook.c</FILENAME>
+      <LINE>207</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6322</DEFECTCODE>
+    <DESCRIPTION>Empty _except block.</DESCRIPTION>
+    <FUNCTION>NtCreateFileHook</FUNCTION>
+    <DECORATED>NtCreateFileHook</DECORATED>
+    <FUNCLINE>167</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>SyscallHook.c</FILENAME>
+      <LINE>202</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28193</DEFECTCODE>
+    <DESCRIPTION>'ConvertStatus' holds a value that must be examined.</DESCRIPTION>
+    <FUNCTION>NtCreateFileHook</FUNCTION>
+    <DECORATED>NtCreateFileHook</DECORATED>
+    <FUNCLINE>167</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>192</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>194</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>196</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>197</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>198</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>199</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>200</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\hacking\hypervisor\Hypervisor From Scratch\MyHypervisorDriver\</FILEPATH>
+      <FILENAME>SyscallHook.c</FILENAME>
+      <LINE>202</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>28197</DEFECTCODE>
+    <DESCRIPTION>Possibly leaking memory '&amp;FileNameA'. </DESCRIPTION>
+    <FUNCTION>NtCreateFileHook</FUNCTION>
+    <DECORATED>NtCreateFileHook</DECORATED>
+    <FUNCLINE>167</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>192</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>194</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>196</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>197</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>198</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>199</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>200</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\hacking\hypervisor\hypervisor from scratch\myhypervisordriver\</FILEPATH>
+        <FILENAME>syscallhook.c</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
