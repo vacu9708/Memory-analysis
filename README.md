@@ -1,35 +1,59 @@
 ![Screenshot_20250217_214151_Gallery](https://github.com/user-attachments/assets/16aa0185-5165-48f7-906e-ffa47b1e4d49)
 
-# Why use the hypervisor?
-The hypervisor is used as a debugger instead of normal debuggers because they are blocked by anti-debugging mechanisms.<br>
-The hypervisor shows CPU registers' values upon EPT violations.<br>
+# Description
+This project aims to bypass the video game's security mechanisms, track enemy positions, and draw rectangles around them.<br>
+This can be further developed into an aimbot.
 
-# Steps to track enemies' positions
-## 1. Find the memory addresses where position info is stored are accessed
-1. Use scanner.cpp and candidate_analyer.cpp to find memory addresses where position info(player's and enemies') is stored.
+# Prior knowledge
+## Hypervisor
+![image](https://github.com/user-attachments/assets/b2939623-f231-406f-b039-d537f82adc65)<br>
+A hypervisor (also called a virtual machine monitor or VMM) is a software layer that allows different operating systems to run concurrently on the same hardware while remaining isolated from each other.
+- **Why use the hypervisor:**
+    - This project takes advantage of the fact that Windows applications cannot detect the existence of the hypervisor because it operates outside the windows kernel.
+    - The hypervisor functions as a debugger because conventional debuggers are blocked by anti-debugging mechanisms.
+- **What the hypervisor does:** The hypervisor shows CPU registers upon EPT violations at specific memory addresses just like normal debuggers show CPU registers upon breakpoints.
+
+The hypervisor in this project only works in the intel CPU.
+
+# Steps to track enemy positions
+## 1. Find the memory addresses where position info is stored
+I used `scanner.cpp` and `candidate_analyer.cpp` to find memory addresses where position info(player's and enemies') is stored.<br>
+Keep filtering out candidate addresses by setting some conditions such as:
+- 3 contiguous float values
+- Not out of a range, e.g. [123456, -123456]
+- Non-zero
+- Values changed after the position changes in the game
+
+For the player, the facing direction [-1, 1] is needed in addition to the player's 3D coordinates to perform the **World To Screen** computation below.<br>
+The facing direction is likely to be stored in the same struct where the player's 3D coordinates are located.
 
 ## 2. Use the hypervisor to find the instruction addresses executed at the moment the found memory addresses are accessed.
-The memory addresses where position info is stored can always be found using the instructions executed at the moment they are accessed.
-1. Run the hypervisor device driver
-2. Execute ./MyHypervisorApp.exe [process ID] [memory address] 1, which prints CPU register values each time the target address is accessed
-3. Get the value in the RIP register that MyHypervisorApp.exe prints
-4. Modify the instruction offset in instruction_offset_calculator.cpp (offset = game's base address - instruction address)
+The memory addreseses found above change after the process restarts because they are **dynamically allocated**.<br>
+Therefore, they cannot consistently be used, which is why this step is necessary.
+![image](https://github.com/user-attachments/assets/09713996-3c08-4167-a362-1db492f4183c)
+
+1. Run the `hypervisor device driver`
+2. Execute `./MyHypervisorApp.exe [process ID] [memory address] 1`, which sets an access violation at the specific memory address
+3. Get the value in the RIP register that `MyHypervisorApp.exe` prints each time the target address is accessed
+4. Modify the instruction offset in `instruction_offset_calculator.cpp` -> offset = process's base address - instruction address(i.e. RIP register)
 
 ## 3. Use the found instruction addresses to get the addresses where the position info is stored
-Run position_addresses_generator.py that does the following :
-1. Adds the target app's base address to the target instrunction's offset and save the calculated instruction addresses to a file.
-2. Uses the hypervisor to catch the moments the EPT violation is triggered upon the target instruction addresses and
-get the position info's addresses
+This step takes advantage of the fact that the memory addresses where position info is stored can consistently be found using the instructions executed at the moment they are accessed.<br>
+![image](https://github.com/user-attachments/assets/1b04d4d5-f0f7-4c5d-bd9f-9d9ed4644b09)
 
-## 4. Track enemies' positions
+Run `position_addresses_generator.py` that does the following :
+1. Adds the target app's base address to the target instrunctions' offset to calculate instruction addresses, and save them to a file.
+2. Uses the hypervisor to capture the moments when EPT violations are triggered at the target instruction addresses, and obtains the adresses of position info
+
+## 4. Track enemy positions by performing "World To Screen" matrix computation
 ![image](https://github.com/user-attachments/assets/3baca4d2-27d7-48ea-8165-2b5ff8727bc2)
 
-Run aimbot.cpp that does the following :
+Run `aimbot.cpp` that does the following :
 1. Extracts the position info(3D world coordinates of the player and enemies) from the found addresses where the position info is stored.
-2. Performs World To Screen computation to convert it to 2D screen coordinates.
-    - Be careful of the fact that Overwatch's coordinate system is right-handed.
-    - Be careful of the fact that Overwatch uses vertical FOV.
-3. Draw the rectangles at the calculated screen coordinates on the screen.
+2. Performs World To Screen computation to convert 3D world coordinates to 2D screen coordinates, considering the following:
+    - Overwatch's coordinate system is right-handed.
+    - Overwatch uses vertical FOV.
+4. Draw rectangles around the screen coordinates on the screen.
 
 # Result
 [a](https://github.com/user-attachments/assets/6b9f77b8-544e-47e3-9b92-c3f8a80dcb90)
