@@ -5,7 +5,8 @@ This can be further developed into an aimbot.
 
 # Prior knowledge
 ## Hypervisor
-![image](https://github.com/user-attachments/assets/b2939623-f231-406f-b039-d537f82adc65)<br>
+![image](https://github.com/user-attachments/assets/8f9f1214-fff0-4f37-a044-aaf98f18e9b9)
+
 A hypervisor (also called a virtual machine monitor or VMM) is a software layer that allows different operating systems to run concurrently on the same hardware while remaining isolated from each other.
 - **Why use the hypervisor:**
     - This project takes advantage of the fact that Windows applications cannot detect the existence of the hypervisor because it operates outside the windows kernel.
