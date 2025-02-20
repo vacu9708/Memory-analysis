@@ -34,7 +34,7 @@ Therefore, they cannot consistently be used, which is why this step is necessary
 ![image](https://github.com/user-attachments/assets/20aa7248-e6e2-42f4-af05-42e0bd7d0ebd)
 
 1. Run the `hypervisor device driver`
-2. Execute `./MyHypervisorApp.exe [process ID] [memory address] 1`, which sets up an access violation at the specific memory address
+2. Execute `./MyHypervisorApp.exe [process ID] [memory address] 1`, which sets up an access violation at the specified memory address
 3. Get the value in the RIP register that `MyHypervisorApp.exe` prints each time the target address is accessed
 4. Modify the instruction offset in `instruction_offset_calculator.cpp` -> offset = process's base address - instruction address(i.e. RIP register)
 
