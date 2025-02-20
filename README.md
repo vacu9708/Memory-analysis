@@ -26,7 +26,7 @@ Keep filtering out candidate addresses by setting some conditions such as:
 For the player, the facing direction [-1, 1] is needed in addition to the player's 3D coordinates to perform the **World To Screen** computation below.<br>
 The facing direction is likely to be stored in the same struct where the player's 3D coordinates are located.
 
-## 2. Use the hypervisor to find the instruction addresses executed at the moment the found memory addresses are accessed.
+## 2. Use the hypervisor to find the instruction addresses executed at the moment the indentified memory addresses are accessed.
 The memory addreseses found above change after the process restarts because they are **dynamically allocated**.<br>
 Therefore, they cannot consistently be used, which is why this step is necessary.
 ![image](https://github.com/user-attachments/assets/038c998e-2a63-4b8a-b3b7-851a2ca4c594)
