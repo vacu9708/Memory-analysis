@@ -18,6 +18,8 @@ The hypervisor in this project only works in the intel CPU.
 
 ## World To Screen
 **World-To-Screen** computation refers to the process of converting a 3D point in world space to a 2D point on the screen.<br>
+![image](https://github.com/user-attachments/assets/9e801bc4-fa55-44f8-9bd6-96fe1bc44155)
+
 [Explanation of World To Screen](https://github.com/vacu9708/Game-hacking/blob/main/World%20To%20Screen/World%20To%20Screen.pdf)
 
 # Steps to track enemy positions
@@ -51,8 +53,6 @@ Run `position_addresses_generator.py` that does the following :
 2. Uses the hypervisor to capture the moments when EPT violations are triggered at the target instruction addresses, and obtains the adresses of position info
 
 ## 4. Track enemy positions by performing "World To Screen" matrix computation
-![image](https://github.com/user-attachments/assets/9e801bc4-fa55-44f8-9bd6-96fe1bc44155)
-
 Run `aimbot.cpp` that does the following :
 1. Extracts the position info(3D world coordinates of the player and enemies) from the found addresses where the position info is stored.
 2. Performs World To Screen computation to convert 3D world coordinates to 2D screen coordinates, considering the following:
