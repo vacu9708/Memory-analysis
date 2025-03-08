@@ -11,6 +11,8 @@ A hypervisor (also called a virtual machine monitor or VMM) is a software layer 
 - **Why use the hypervisor:**
     - This project takes advantage of the fact that Windows applications cannot detect the existence of the hypervisor because it operates outside the windows kernel.
     - The hypervisor functions as a debugger to circumvent anti-debugging mechanisms that block conventional debuggers.
+        - Debugging using the **Vectored Exception Handling** after DLL injection is blocked by anti-debugging mechanisms
+        - Debugging using the **WIN APIs** is also blocked
 - **What the hypervisor does:** The hypervisor shows CPU registers upon EPT violations at specific memory addresses just like normal debuggers show CPU registers upon breakpoints.
 - **What EPT Violation (Extended Page Table Violation) means**: An EPT (Extended Page Table) violation is a type of page fault that occurs in Intel VT-x virtualization when a guest virtual machine (VM) attempts to access memory in a way that violates the Extended Page Table (EPT) permissions set by the hypervisor.
 
