@@ -1,6 +1,6 @@
 # Description
 <img src="https://github.com/user-attachments/assets/d4a40ab2-8d29-4d0e-8c65-48245d5bd141" width="70%"><br>
-This project aims to bypass video game's security mechanisms, track enemy positions, and draw rectangles around them.<br>
+This project aims to bypass video game's security mechanisms, track player positions, and draw rectangles around them.<br>
 This can be further developed into an aimbot.
 
 # Prior knowledge
@@ -24,7 +24,7 @@ The hypervisor in this project only works in the intel CPU.
 
 [Explanation of World To Screen](https://github.com/vacu9708/Game-hacking/blob/main/World%20To%20Screen/World%20To%20Screen.pdf)
 
-# Steps to track enemy positions
+# Steps to track player positions
 ## 1. Find the memory addresses where position info is stored
 I used `scanner.cpp` and `candidate_analyer.cpp` to find memory addresses where position info(player's and enemies') is stored.<br>
 Keep filtering out candidate addresses by setting some conditions such as:
@@ -54,7 +54,7 @@ Run `position_addresses_generator.py` that does the following :
 1. Adds the target app's base address to the target instrunctions' offset to calculate instruction addresses, and save them to a file.
 2. Uses the hypervisor to capture the moments when EPT violations are triggered at the target instruction addresses, and obtains the adresses of position info
 
-## 4. Track enemy positions by performing "World To Screen" matrix computation
+## 4. Track player positions by performing "World To Screen" matrix computation
 Run `aimbot.cpp` that does the following :
 1. Extracts the position info(3D world coordinates of the player and enemies) from the found addresses where the position info is stored.
 2. Performs World To Screen computation to convert 3D world coordinates to 2D screen coordinates, considering the following:
