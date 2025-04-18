@@ -54,11 +54,11 @@ Run `position_addresses_generator.py` that does the following :
 2. Uses the hypervisor to capture the moments when EPT violations are triggered at the target instruction addresses, and obtains the adresses of position info
 
 ## 4. Track player positions by performing "World To Screen" matrix computation
-Run `aimbot.cpp` that does the following :
+Run `rectangle_drawer.cpp` that does the following :
 1. Extracts the position info(3D world coordinates of the player and enemies) from the found addresses where the position info is stored.
 2. Performs World To Screen computation to convert 3D world coordinates to 2D screen coordinates, considering the following:
-    - Overwatch's coordinate system is right-handed.
-    - Overwatch uses vertical FOV.
+    - The game where I tested this project has a right-handed coordinate system.
+    - It also uses vertical FOV.
 4. Draw rectangles around the screen coordinates on the screen.
 
 # Result
