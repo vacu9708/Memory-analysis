@@ -79,3 +79,6 @@ As a result, the toolchain can re-identify the relevant data structures after ea
 3. Rendering simple rectangles around the projected 2D positions for visual inspection and debugging.
 
 This end-to-end flow demonstrates how to combine hypervisor-based dynamic analysis, reverse-engineering of data structures, and 3D math to build a transparent runtime visualization tool for a protected 3D application.
+
+# Result
+[a](https://github.com/user-attachments/assets/6b9f77b8-544e-47e3-9b92-c3f8a80dcb90)
